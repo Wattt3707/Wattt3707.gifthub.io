@@ -1,0 +1,147 @@
+body {
+	background-color: darkblue;
+}
+.tubuh {
+	background-color: violet;
+	width:1000px;
+	margin: 10Px auto;
+}
+.tubuh .kepala{
+	background-color: aqua;
+	font-family: serif ms; 
+	color: blue;
+	text-align: center;
+	font-size: 15pt;
+	padding: 2px 10px;
+}
+.tubuh .leher{
+	background-color: silver;
+}
+.tubuh .leher ul {
+	list-style-type: none;
+	margin: 0;
+	padding : 0;
+	overflow: hidden;
+}
+.tubuh .leher > ul > li {
+	float: left;
+}
+.tubuh .leher li a{
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 75.9px;
+	text-decoration: none;
+}
+.tubuh .leher li a:hover{
+	background-color: white;
+} 
+.tubuh li .tulang-leher1 {
+	display: inline-block;
+}
+.tubuh .tulang-leher1:hover .isi-leher1{
+	display: block;
+}
+.tubuh .isi-leher1 {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	z-index: 1;
+	background-color: grey;
+}
+.tubuh .isi-leher1 a{
+	color: #3c3c3c !important;
+}
+.tubuh .isi-leher1 a:hover{
+	color: red !important;
+	background: grey !important;
+}
+.tubuh li .tulang-leher2 {
+	display: inline-block;
+}
+.tubuh .tulang-leher2:hover .isi-leher2{
+	display: block;
+}
+.tubuh .isi-leher2 {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	z-index: 1;
+	background-color: grey;
+}
+.tubuh .isi-leher2 a{
+	color: yellow !important;
+}
+.tubuh .isi-leher2 a:hover{
+	color: yellow !important;
+	background: grey !important;
+}
+.tubuh li .tulang-leher3 {
+	display: inline-block;
+}
+.tubuh .tulang-leher3:hover .isi-leher3{
+	display: block;
+}
+.tubuh .isi-leher3 {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	z-index: 1;
+	background-color: #5F9EA0;
+}
+.tubuh .isi-leher3 a{
+	color: #3c3c3c !important;
+}
+.tubuh .isi-leher3 a:hover{
+	color: #000000 !important;
+	background: #f3f3f3 !important;
+}
+.tubuh li .tulang-leher4 {
+	display: inline-block;
+}
+.tubuh .tulang-leher4:hover .isi-leher4{
+	display: block;
+}
+.tubuh .isi-leher4 {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+	z-index: 1;
+	background-color: white;
+}
+.tubuh .isi-leher4 a{
+	color: black !important;
+}
+.tubuh .isi-leher4 a:hover{
+	color: #000000 !important;
+	background: green !important;
+}
+.tubuh .badan {
+	height: 450px;
+}
+.tubuh .badan .perut {
+	background-color: lightblue;
+	float: left;
+	text-align: center;
+	color: black;
+	width: 80%;
+	height: 100%;
+}
+.tubuh .badan .perut1 {
+	background-color: pink;
+	float: left;
+	text-align: center;
+	color: black;
+	width: 20%;
+	height: 100%;
+}
+.table1 {
+	font-family: sans-serif;
+	color: #232323;
+	border-collapse: collapse;
+}
+.table1, td {
+border: 1px solid #999;
+padding: 8px 20px;
+}
